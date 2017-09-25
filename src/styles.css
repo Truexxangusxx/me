@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background: white;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        padding: 20px;
+    }
+}
+
+.container {
+    border-radius: 15px;
+    background: #999;
+}
+
+header {
+    padding-top: 20px; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    min-height: 300px;
+    color: white;
+    background-image: url('assets/images/head.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+header .izquierda{
+    text-align: left;
+}
+header .derecha{
+    text-align: right;
+}
+
+
+.bazul {
+    border: 1px solid #00607F;
+}
+
+.tazul {
+    color: #00607F;
+}
