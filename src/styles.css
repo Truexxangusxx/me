@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import 'efectos.css';
 body {
     background: white;
 }
@@ -22,28 +22,108 @@ body {
 }
 
 header {
-    padding-top: 20px; 
+    padding-top: 20px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    min-height: 300px;
-    color: white;
-    background-image: url('assets/images/head.png');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    min-height: 350px;
+    color: #000;
+    background: #efefef;
 }
 
-header .izquierda{
+header .izquierda {
     text-align: left;
 }
-header .derecha{
+
+header .derecha {
     text-align: right;
 }
 
-
-.bazul {
-    border: 1px solid #00607F;
+@media (min-width: 768px) {
+    header .derecha .botones {
+        padding-top: 30px;
+        padding-right: 20px;
+    }
 }
 
-.tazul {
-    color: #00607F;
+header .izquierda .datos_personales {
+    font-weight: 600 !important;
+}
+
+.nombre {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px
+}
+
+@media (min-width: 768px) {
+    .nombre {
+        height: 120px;
+    }
+}
+
+@media (min-width: 992px) {
+    .nombre {
+        height: 150px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .nombre {
+        height: 180px;
+    }
+}
+
+.nombre .texto {
+    animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    /* Firefox */
+    -webkit-animation: fadein 3s;
+    /* Safari and Chrome */
+    -o-animation: fadein 3s;
+    /* Opera */
+}
+
+
+
+.nombre span {
+    font-weight: 600;
+    font-size: 32px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+
+.derecha a {
+    width: 110px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+    .imagen {
+        margin: 0 auto;
+    }
+    .derecha a {
+        text-align: center;
+    }
+}
+
+
+/*****************General************************/
+html,*{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:active {
+    color: inherit;
+    text-decoration: none;
 }
