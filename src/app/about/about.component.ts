@@ -9,8 +9,11 @@ export class AboutComponent implements OnInit {
 
   constructor() { }
 
-
-  skills=[{habilidad:"css", porcentake: "90"}]
+  skills=[
+  {habilidad:"FrontEnd: ", ejemplos:"HTML, CSS, JS ...", nivel: "Avanzado", porcentaje: "nivelavanzado2"}
+  ,{habilidad:"BackEnd: ",ejemplos:"Java, Ruby, C#, php ...", nivel: "Experto", porcentaje: "nivelexperto1"}
+  ,{habilidad:"Otros: ",ejemplos:"IBM WCM, SharePoint, Git ...", nivel: "Avanzado", porcentaje: "nivelavanzado1"}
+  ]
 
 
   ngOnInit() {

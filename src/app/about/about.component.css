@@ -1,10 +1,59 @@
-.aboutme{
-	padding: 20px;
+.aboutme {
+  padding: 20px;
 }
 
-.titulo{
-	text-align: center;
+.titulo {
+  text-align: center;
 }
 
-h1{
+p {
+	margin-bottom: 5px;
+}
+
+.nivelexperto2 {
+  color: white;
+  font-weight: bold;
+  width: 100%
+}
+
+.nivelexperto1 {
+  color: white;
+  font-weight: bold;
+  width: 90%
+}
+
+.nivelavanzado3 {
+  color: white;
+  font-weight: bold;
+  width: 80%
+}
+
+.nivelavanzado2 {
+  color: white;
+  font-weight: bold;
+  width: 70%
+}
+
+.nivelavanzado1 {
+  color: white;
+  font-weight: bold;
+  width: 60%
+}
+
+.nivelintermedio2 {
+  color: white;
+  font-weight: bold;
+  width: 50%
+}
+
+.nivelintermedio1 {
+  color: white;
+  font-weight: bold;
+  width: 40%
+}
+
+.nivelbasico1 {
+  color: white;
+  font-weight: bold;
+  width: 30%
 }
