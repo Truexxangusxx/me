@@ -1,5 +1,10 @@
 .footer{
-    background:  #343a40;
+    background:  #555;
+    color: white;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+.titulo{
+    text-align: center;
 }

@@ -8,13 +8,15 @@ import { AboutComponent } from './about/about.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawesome';
 import { FooterComponent } from './footer/footer.component';
+import { BotonarribaComponent } from './botonarriba/botonarriba.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
     ExperienceComponent,
-    FooterComponent
+    FooterComponent,
+    BotonarribaComponent
   ],
   imports: [
     BrowserModule,
