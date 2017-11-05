@@ -10,15 +10,18 @@
   <br>
   </div>
   <div class="row">
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-md-6 cuadro">
       <h4>Quien soy?</h4>
       <p>
-        Desarrollador full stack, eterno aprendiz entusiasta y apasinado por la tecnologia de la informacion, todos los caminos conducen a roma pero yo prefiero tomar el mejor atajo que me proporcionen las nuevas tecnologias y metodologias para el desarrollo de soluciones de TI.
+        Titulado en la carrera de Ingeniería de Sistemas formado para trabajar en equipo y bajo presión, con iniciativa, responsable y comprometido con las metas que proponga la empresa.
+      </p>
+      <p>
+        Me gusta La natacion, guitarra y el desarrolo de software.
       </p>
       <br>
-      <a href="#" role="button" class="btn btn-outline-dark">Desarga mi CV</a>
+      <a href="assets/cv.pdf" download role="button" class="btn btn-outline-dark">Desarga mi CV</a>
     </div>
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-md-6 cuadro">
       <h4>Habilidades:</h4>
       <div *ngFor="let skill of skills">
         <p><strong>{{skill.habilidad}}</strong> {{skill.ejemplos}}</p>

@@ -75,7 +75,9 @@ header .izquierda .datos_personales {
 }
 
 .nombre .texto{
-    animation-duration: 3s;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
 }
 
 .nombre span {

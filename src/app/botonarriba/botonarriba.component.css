@@ -1,4 +1,5 @@
 .arriba{
+    display: none;
     position: fixed;
     background: #333;
     color: white;

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as jsPDF from 'jspdf'
 
 @Component({
   selector: 'app-about',
@@ -17,6 +18,12 @@ export class AboutComponent implements OnInit {
 
 
   ngOnInit() {
+  }
+
+
+  download(){
+    const doc =new jsPDF();
+    doc.save('cv.pdf');
   }
 
 }

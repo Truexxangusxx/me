@@ -1,5 +1,7 @@
-.aboutme {
-  padding: 20px;
+@media (min-width: 576px) { 
+  .aboutme {
+    padding: 20px 40px;
+  }
 }
 
 .titulo {
@@ -56,4 +58,12 @@ p {
   color: white;
   font-weight: bold;
   width: 30%
+}
+
+.aboutme .cuadro{
+  margin-bottom: 50px;
+}
+
+.aboutme h4{
+  margin-bottom: 20px;
 }

@@ -2,8 +2,53 @@
     text-align: center;
 }
 
+
+@media (max-width: 575px) { 
+    .experiencia{
+        padding: 0px 20px;
+        margin-bottom: 50px;
+    }    
+}
+
+@media (min-width: 576px) { 
+    .experiencia{
+        padding: 0px 50px;
+        margin-bottom: 50px;
+    }    
+}
+
+
 .experiencia>div{
     background:  #efefef;
-    padding: 50px;
-    border-radius: 15px;
+    padding: 30px;
+    /*border-radius: 15px;*/
+    height: 100%;
 }
+
+@media (max-width: 575px) { 
+    .experiencia .fecha{
+        font-size: 14px;
+        right: 45px;
+    }    
+}
+
+@media (min-width: 576px) { 
+    .experiencia .fecha{
+        right: 80px;
+    }    
+}
+
+.experiencia .fecha{
+    text-align: right;
+    font-weight: bold;
+    color: #555;
+    position: absolute;
+    bottom: 10px;
+}
+
+.experiencia h5{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
